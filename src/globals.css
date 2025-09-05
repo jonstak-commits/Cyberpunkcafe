@@ -1,0 +1,18 @@
+:root {
+--bg: #0a0b12;
+--surface: #151923;
+--card: #1e2030;
+--text: #e6e6e6;
+--accent: #7c3aed;
+--neon: #2effd1;
+}
+{ box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+margin: 0;
+font-family: Inter, system-ui, -apple-system;
+background: radial-gradient(circle at 20% -10%, rgba(0, 255, 200, 0.15), transparent 40%),
+radial-gradient(circle at 100% 0%, rgba(0,255,200,0.08), transparent 40%),
+#0a0b12;
+color: var(--text);
+}
